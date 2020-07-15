@@ -13,6 +13,7 @@ public class UserController {
 
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
     public String hello(){
+        System.out.println("hello");
         return "hello";
     }
 
